@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pacientes",
+  "info": {
+    "name": "paciente",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "edad": {
+      "type": "integer"
+    },
+    "sexo": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "gpx": {
+      "type": "richtext"
+    }
+  }
+}
